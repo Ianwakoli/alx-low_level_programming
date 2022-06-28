@@ -9,7 +9,7 @@
  * Return: 0 if no errors, else 1
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
 	int a, b, c;
 
@@ -18,7 +18,6 @@ int main(int argc, char *argv[])
 		puts("Error\n");
 		return (1);
 	}
-
 	else
 	{
 		a = atoi(argv[1]);
