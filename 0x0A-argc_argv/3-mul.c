@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
 		puts("Error\n");
 		return (1);
 	}
+
 	else
 	{	a = atoi(argv[1]);
 		b = atoi(argv[2]);
